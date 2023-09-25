@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="114037e0-47a5-4b10-aa16-1fd863155e85" name="Changes" comment="gjort tester för billjus, ljus av och på, hel och halvljus, bakljus samt bilstart" />
+    <list default="true" id="114037e0-47a5-4b10-aa16-1fd863155e85" name="Changes" comment="- Gruppnamn: [Grupp Solo]&#10;- Medlemmar: Tom Eriksson&#10; - [T.E]">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +54,11 @@
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -196,7 +203,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695643992352</updated>
-      <workItem from="1695643996124" duration="3529000" />
+      <workItem from="1695643996124" duration="3719000" />
+      <workItem from="1695647739817" duration="779000" />
     </task>
     <task id="LOCAL−00001" summary="gjort tester för billjus, ljus av och på, hel och halvljus, bakljus samt bilstart">
       <created>1695647324873</created>
@@ -204,7 +212,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1695647324873</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="- Gruppnamn: [Grupp Solo]&#10;- Medlemmar: Tom Eriksson&#10; - [T.E]">
+      <created>1695647566289</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1695647566289</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +237,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gjort tester för billjus, ljus av och på, hel och halvljus, bakljus samt bilstart" />
-    <option name="LAST_COMMIT_MESSAGE" value="gjort tester för billjus, ljus av och på, hel och halvljus, bakljus samt bilstart" />
+    <MESSAGE value="- Gruppnamn: [Grupp Solo]&#10;- Medlemmar: Tom Eriksson&#10; - [T.E]" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Gruppnamn: [Grupp Solo]&#10;- Medlemmar: Tom Eriksson&#10; - [T.E]" />
   </component>
 </project>
