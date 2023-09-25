@@ -22,4 +22,5 @@ jobs:
 
       - name: Run tests
         run: |
+          chmod +x ./gradlew  # Grant execution permission
           ./gradlew test
