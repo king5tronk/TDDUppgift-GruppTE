@@ -37,6 +37,5 @@ class CarTest {
         assert !car.isStarted();
         car.startCar();
         assert car.isStarted();
-        System.out.println("Car is started");
     }
 }
