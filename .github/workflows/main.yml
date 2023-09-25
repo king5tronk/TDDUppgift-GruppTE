@@ -16,13 +16,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-
-      - name: Set up JDK
-        uses: actions/setup-java@v2
-        with:
-          java-version: '19'
-          node-version: '16'
-
       - name: Build with Gradle
         run: |
           ./gradlew build
