@@ -211,7 +211,7 @@
       <workItem from="1695643996124" duration="3719000" />
       <workItem from="1695647739817" duration="2206000" />
       <workItem from="1696162763137" duration="1179000" />
-      <workItem from="1696179757872" duration="3024000" />
+      <workItem from="1696179757872" duration="3876000" />
     </task>
     <task id="LOCAL−00001" summary="gjort tester för billjus, ljus av och på, hel och halvljus, bakljus samt bilstart">
       <created>1695647324873</created>
@@ -243,7 +243,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1696185667644</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="la till dockerfil, ändrade i yml">
+      <created>1696186030055</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1696186030055</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

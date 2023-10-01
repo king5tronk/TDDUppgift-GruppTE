@@ -3,12 +3,11 @@ name: Java CI
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -20,11 +19,18 @@ jobs:
 
       - name: Build with Gradle
         run: |
+          chmod +x ./gradlew
           ./gradlew build
 
       - name: Run tests
         run: |
+          chmod +x ./gradlew  # Grant execution permission
           ./gradlew test
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
 
       - name: Build and push Docker image
         env:
@@ -32,8 +38,8 @@ jobs:
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
         run: |
           echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin docker.pkg.github.com
-          docker build -t docker.pkg.github.com/king5tronk/TDDUppgift-GruppTE/image-name:latest .
-          docker push docker.pkg.github.com/king5tronk/TDDUppgift-GruppTE/image-name:latest
+          docker build -t docker.pkg.github.com/king5tronk/TDDUppgift-GruppTE/docker-tdd-test:latest .
+          docker push docker.pkg.github.com/king5tronk/TDDUppgift-GruppTE/docker-tdd-test:latest
 
       - name: Deploy to testEnvironment
         run: echo "Deploying to testEnvironment"
