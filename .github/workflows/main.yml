@@ -3,12 +3,11 @@ name: Java CI
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -20,10 +19,20 @@ jobs:
 
       - name: Build with Gradle
         run: |
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - name: Build with Gradle
+        run: |
+          chmod +x ./gradlew
           ./gradlew build
 
       - name: Run tests
         run: |
+          chmod +x ./gradlew  # Grant execution permission
           ./gradlew test
 
       - name: Build and push Docker image
