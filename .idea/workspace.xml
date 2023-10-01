@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="114037e0-47a5-4b10-aa16-1fd863155e85" name="Changes" comment="test2">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    <list default="true" id="114037e0-47a5-4b10-aa16-1fd863155e85" name="Changes" comment="la till dockerfil, ändrade i yml">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -212,7 +211,7 @@
       <workItem from="1695643996124" duration="3719000" />
       <workItem from="1695647739817" duration="2206000" />
       <workItem from="1696162763137" duration="1179000" />
-      <workItem from="1696179757872" duration="2590000" />
+      <workItem from="1696179757872" duration="3024000" />
     </task>
     <task id="LOCAL−00001" summary="gjort tester för billjus, ljus av och på, hel och halvljus, bakljus samt bilstart">
       <created>1695647324873</created>
@@ -238,7 +237,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1695649261368</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="la till dockerfil, ändrade i yml">
+      <created>1696185667644</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1696185667644</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +265,7 @@
     <MESSAGE value="- Gruppnamn: [Grupp Solo]&#10;- Medlemmar: Tom Eriksson&#10; - [T.E]" />
     <MESSAGE value="test1" />
     <MESSAGE value="test2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test2" />
+    <MESSAGE value="la till dockerfil, ändrade i yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="la till dockerfil, ändrade i yml" />
   </component>
 </project>

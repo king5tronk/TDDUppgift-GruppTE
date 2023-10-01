@@ -10,30 +10,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Set up JDK
-      uses: actions/setup-java@v2
-      with:
-        java-version: '19'
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          java-version: '19'
 
-    - name: Build with Gradle
-      run: |
-        ./gradlew build
+      - name: Build with Gradle
+        run: |
+          ./gradlew build
 
-    - name: Run tests
-      run: |
-        ./gradlew test
+      - name: Run tests
+        run: |
+          ./gradlew test
 
-    - name: Build and push Docker image
-      env:
-        DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+      - name: Build and push Docker image
+        env:
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
         run: |
           echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin docker.pkg.github.com
-            docker build -t docker.pkg.github.com/king5tronk/TDDUppgift-GruppTE/image-name:latest .
-            docker push docker.pkg.github.com/king5tronk/TDDUppgift-GruppTE/image-name:latest
+          docker build -t docker.pkg.github.com/king5tronk/TDDUppgift-GruppTE/image-name:latest .
+          docker push docker.pkg.github.com/king5tronk/TDDUppgift-GruppTE/image-name:latest
 
-    - name: Deploy to testEnvironment
-      run: echo "Deploying to testEnvironment"
+      - name: Deploy to testEnvironment
+        run: echo "Deploying to testEnvironment"
