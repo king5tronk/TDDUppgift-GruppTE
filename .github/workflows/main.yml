@@ -62,7 +62,7 @@ jobs:
       - name: Login to GitHub Packages # Log in to GitHub Packages Docker registry
         uses: docker/login-action@v3
         with:
-          registry: docker.pkg.github.com/king5tronk/tdduppift-gruppte # GitHub Packages Docker registry URL
+          registry: docker.pkg.github.com # GitHub Packages Docker registry URL
           username: ${{ github.actor }} # GitHub-användarnamn
           password: ${{ secrets.GITHUB_TOKEN }} # GitHub Personal Access Token (PAT)
 
