@@ -70,11 +70,19 @@ jobs:
           username: ${{ github.actor }} # GitHub-användarnamn
           password: ${{ secrets.GITHUB_TOKEN }} # GitHub Personal Access Token (PAT)
 
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@9ec57ed1fcdbf14dcef7dfbe97b2010124a938b7
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+
       - name: Build and push to GitHub Packages # Build and push to GitHub Packages
         uses: docker/build-push-action@v5
         with:
+          context: .
           push: true
-          tags: docker.pkg.github.com/king5tronk/tdduppift-gruppte/docker-tdd-test:latest # GitHub Packages repo URL och tag
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
 
   deploy:
     runs-on: ubuntu-latest
