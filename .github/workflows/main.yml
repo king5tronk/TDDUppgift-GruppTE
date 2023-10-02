@@ -62,9 +62,9 @@ jobs:
       - name: Login to GitHub Packages # Log in to GitHub Packages Docker registry
         uses: docker/login-action@v3
         with:
-          registry: docker.pkg.github.com
+          registry: ${{ env.REGISTRY }} # GitHub Packages Docker registry URL
           username: ${{ github.actor }} # GitHub-användarnamn
-          repo-token: ${{ secrets.GITHUB_TOKEN }} # GitHub Personal Access Token (PAT)
+          password: ${{ secrets.GITHUB_TOKEN }} # GitHub Personal Access Token (PAT)
 
       - name: Build and push to GitHub Packages # Build and push to GitHub Packages
         uses: docker/build-push-action@v5
