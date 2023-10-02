@@ -68,7 +68,7 @@ jobs:
         with:
           registry: docker.pkg.github.com # GitHub Packages Docker registry URL
           username: ${{ github.actor }} # GitHub-användarnamn
-          password: ${{ secrets.GITHUB_TOKEN }} # GitHub Personal Access Token (PAT)
+          password: ${{ secrets.TOKEN_GITHUB }} # GitHub Personal Access Token (PAT)
 
       - name: Extract metadata (tags, labels) for Docker
         id: meta
