@@ -64,7 +64,7 @@ jobs:
         with:
           registry: docker.pkg.github.com
           username: ${{ secrets.GH_USERNAME }} # GitHub-användarnamn
-          password: ${{ secrets.TOKEN_GITHUB }} # GitHub Personal Access Token (PAT)
+          password: ${{ secrets.GITHUB_TOKEN }} # GitHub Personal Access Token (PAT)
 
       - name: Build and push to GitHub Packages # Build and push to GitHub Packages
         uses: docker/build-push-action@v5
