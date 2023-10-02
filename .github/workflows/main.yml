@@ -49,7 +49,6 @@ jobs:
       - name: Build and push # Build and push to Docker Hub
         uses: docker/build-push-action@v5
         with:
-          context: .
           push: true
           tags: tompa123/docker-tdd-test:latest # Docker Hub repo name
 
