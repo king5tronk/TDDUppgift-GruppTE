@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="114037e0-47a5-4b10-aa16-1fd863155e85" name="Changes" comment="la till dockerfil, ändrade i yml" />
+    <list default="true" id="114037e0-47a5-4b10-aa16-1fd863155e85" name="Changes" comment="la till dockerfil, ändrade i yml">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,7 +213,7 @@
       <workItem from="1696162763137" duration="1179000" />
       <workItem from="1696179757872" duration="12293000" />
       <workItem from="1696264673402" duration="668000" />
-      <workItem from="1696265551171" duration="5126000" />
+      <workItem from="1696265551171" duration="5434000" />
     </task>
     <task id="LOCAL−00001" summary="gjort tester för billjus, ljus av och på, hel och halvljus, bakljus samt bilstart">
       <created>1695647324873</created>
