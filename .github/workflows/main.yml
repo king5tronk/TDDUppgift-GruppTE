@@ -88,4 +88,4 @@ jobs:
     needs: github_packages_push  # Detta jobb väntar på att "github_packages_push"-jobbet slutförs
     steps:
       - name: Deploy to testEnvironment
-        run: echo "Deploying to testEnvironment"
+        run: echo "Deploying to testEnvironment" #test
