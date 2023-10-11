@@ -4,7 +4,7 @@ public class Car {
     private boolean lightsOn;
     private boolean halfLight;
     private String backLights;
-    private boolean carStarted;
+    private boolean carsStarted;
 
 
     public Car(String lights, boolean lightsOn, boolean halfLight, String backLights, boolean carStarted) {
@@ -12,7 +12,7 @@ public class Car {
         this.lightsOn = false;
         this.halfLight = true;
         this.backLights = backLights;
-        this.carStarted = false;
+        this.carsStarted = false;
     }
 
     public String getLights() {
@@ -41,11 +41,11 @@ public class Car {
     }
 
     public boolean isStarted() {
-        return carStarted;
+        return carsStarted;
     }
 
     public void startCar() {
-        this.carStarted = true;
+        this.carsStarted = true;
     }
 }
 
