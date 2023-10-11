@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="114037e0-47a5-4b10-aa16-1fd863155e85" name="Changes" comment="changed carStarted name to carsStarted" />
+    <list default="true" id="114037e0-47a5-4b10-aa16-1fd863155e85" name="Changes" comment="added cartest Fail 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -257,7 +259,25 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1697036285259</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="added cartest Fail">
+      <created>1697036709455</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1697036709455</updated>
+    </task>
+    <task id="LOCAL−00009" summary="added cartest Fail">
+      <created>1697037193569</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1697037193569</updated>
+    </task>
+    <task id="LOCAL−00010" summary="added cartest Fail 2">
+      <created>1697037263447</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1697037263447</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +301,8 @@
     <MESSAGE value="test2" />
     <MESSAGE value="la till dockerfil, ändrade i yml" />
     <MESSAGE value="changed carStarted name to carsStarted" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed carStarted name to carsStarted" />
+    <MESSAGE value="added cartest Fail" />
+    <MESSAGE value="added cartest Fail 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added cartest Fail 2" />
   </component>
 </project>
