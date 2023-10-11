@@ -1,2 +1,3 @@
 rootProject.name = 'TDDUppgift-GruppTE'
+include 'app'
 
