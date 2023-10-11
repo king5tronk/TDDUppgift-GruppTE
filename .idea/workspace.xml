@@ -251,7 +251,13 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1696186030055</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="changed carStarted name to carsStarted">
+      <created>1697036285259</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1697036285259</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +280,7 @@
     <MESSAGE value="test1" />
     <MESSAGE value="test2" />
     <MESSAGE value="la till dockerfil, ändrade i yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="la till dockerfil, ändrade i yml" />
+    <MESSAGE value="changed carStarted name to carsStarted" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed carStarted name to carsStarted" />
   </component>
 </project>
