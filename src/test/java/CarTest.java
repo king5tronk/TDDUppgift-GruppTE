@@ -42,9 +42,9 @@ class CarTest {
     @Test
     public void testCarStartFail() {
         Car car = new Car("LED", false, true, "LED", false);
-        assert car.isStarted();
-        car.startCar();
         assert !car.isStarted();
+        car.startCar();
+        assert car.isStarted();
 
     }
 }
